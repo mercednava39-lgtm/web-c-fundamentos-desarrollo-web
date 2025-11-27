@@ -1,0 +1,28 @@
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:   #232323;
+    color: #fff;
+}
+/* SELECTOR DE CLASE */
+.btn{
+    background-color:aqua ;
+    padding: 15px;
+}
+/* selector id */
+{
+    #sicial-icons .btn
+    background-color:aqua ;
+    color: #fff;
+}
+/* selector avanzado */
+
+
+/* pseudoclase */
+.btn:hover{
+  background-color: blueviolet;
+  color: #fff;
+}
