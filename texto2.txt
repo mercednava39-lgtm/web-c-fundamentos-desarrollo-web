@@ -1,7 +1,0 @@
-lapiz
-goma 
-sacapuntas
-silicon
-pluma
-cuaderno
-libro

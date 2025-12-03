@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    color: white;
+    text-decoration: none;
+}
+.text-style{
+    font-family: monospace;
+    font-size: 1.8rem; /* rem: 16px */
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.purple{color: aqua;}
+.orange{color: chartreuse;}
+.celeste{color: fuchsia;}
+.black{color: gold;}
+
+.text-left{text-align: left;}
+.text.right{text-align: right;}
+.text-center{text-align: center;}
+
+
+.box{
+  display: inline-block;
+  /* width: 172px; 
+  height: 38px; */
+  background-color: blueviolet;
+  padding: 10px 50px; 
+  /* padding-right: 50%; */
+  margin: 30px auto 0px auto;
+  text-align: center;
+  border: 6px solid white;
+  border-radius: 10px;
+}
