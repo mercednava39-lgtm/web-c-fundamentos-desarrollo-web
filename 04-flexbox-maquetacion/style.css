@@ -1,0 +1,43 @@
+body{
+  background-color: lightgray;
+}
+
+
+.contenedor-flexible{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  background-color: blueviolet;
+  border: 2px solid black;
+  width: 600px;
+  height: 500px;
+  color: white;
+}
+
+
+.boxy{
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  border: 2px solid black;
+  font-size: 2rem;
+}
+
+/* estilos del card */
+.card{
+    display: flex;
+    background-color: darkturquoise;
+    border-radius: 80px;
+    width: 685px;
+    margin: auto;
+    overflow: hidden;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
